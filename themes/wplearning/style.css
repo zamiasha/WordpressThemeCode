@@ -1,0 +1,15 @@
+/*
+Theme Name: WP Learning
+Description: This is our first theme
+Author: Zamia shah
+Author URI: Https://academy.pk 
+
+*/
+
+body {
+    background-color: aquamarine;
+}
+
+h1 {
+    color: red !important;
+}
