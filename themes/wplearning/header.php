@@ -21,6 +21,6 @@
     <body>
       <script type="text/javascript">
         jQuery(document).ready(frunction($)) {
-          $("h1").fade();
+          $("h1").fadeout();
         }
         </script>
