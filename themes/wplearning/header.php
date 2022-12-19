@@ -19,4 +19,6 @@
    <?php wp_head()  ?>
     </head>
     <body>
-      <script>
+      <script type="text/javascript">
+        jQuery(document).ready(frunction)
+        </script>
