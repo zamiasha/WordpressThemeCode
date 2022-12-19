@@ -20,5 +20,7 @@
     </head>
     <body>
       <script type="text/javascript">
-        jQuery(document).ready(frunction)
+        jQuery(document).ready(frunction($)) {
+          $("h1").fadeOut();
+        }
         </script>
