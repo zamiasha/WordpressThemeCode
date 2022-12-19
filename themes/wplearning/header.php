@@ -20,7 +20,7 @@
     </head>
     <body>
       <script type="text/javascript">
-        jQuery(document).ready(frunction($)) {
+        jQuery(document).ready(function($){
           $("h1").fadeout();
-        }
+        });
         </script>
