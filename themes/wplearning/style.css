@@ -72,3 +72,16 @@ h1 {
     background-color: #333333;
     height: 300px;
 }
+
+
+/*****************************
+05: logo style
+******************************/
+
+.site-branding {
+    width: 100%;
+    display: block;
+    clear: both;
+    height: 60px;
+    text-align: center;
+}
