@@ -8,7 +8,7 @@ get_header();
 
 
     <div class="home-main">
-        <div class="home-posts">
+        <div class="home-posts col-lg-8 col-md-8 col-sm-8  col-xs-12">
         <?php  if ( have_posts() ) : ?>
            <?php  while ( have_posts() ) : the_post(); ?>   
                <h1><?php the_title() ?></h1>
@@ -16,7 +16,7 @@ get_header();
           <?php  endwhile; ?>
       <?php  endif;  ?>
      </div>
-            <div class="home-sidebar">
+            <div class="home-sidebar col-lg-8 col-md-8 col-sm-8  col-xs-12">
                 <?php get_sidebar(); ?>
             </div>        
     </div>
