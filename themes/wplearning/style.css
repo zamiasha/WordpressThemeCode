@@ -28,7 +28,7 @@ h1 {
 
 
 /*-------------------------
-01: Main menu
+02: Main menu
 ----------------------------  */
 
 .site-navigation {
@@ -41,7 +41,7 @@ h1 {
 
 
 /*-------------------------
-01: Home Content
+03: Home Content
 ----------------------------  */
 
 .home-main {
@@ -50,5 +50,15 @@ h1 {
 
 .home-posts {
     background: #f0f0f0;
-    padding: 30px;
+    padding: 30px 30px !important;
+}
+
+
+/*-------------------------
+04: Sidebar  & Widgets
+----------------------------  */
+
+.home-sidebar {
+    background: #ddd;
+    min-height: 300px;
 }
