@@ -6,10 +6,22 @@ Author URI: Https://academy.pk
 
 */
 
+
+/* 
 body {
     background-color: aquamarine;
-}
-
+} 
 h1 {
     color: red !important;
+}
+*/
+
+
+/*-------------------------
+01 header 
+----------------------------  */
+
+.site-header {
+    height: 150px;
+    background-color: aquamarine;
 }
