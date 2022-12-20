@@ -3,6 +3,10 @@
  This  is  function file
  */
 
+
+
+ add_theme_support('custom-logo');
+
 function wplearning_theme_scripts() {
     wp_enqueue_style('style', get_template_directory_uri() . '/style.css', the_time());    
     wp_enqueue_style('bootstrap-css', get_template_directory_uri() . '/assests/bootstrap/css/bootstrap.min.css');
