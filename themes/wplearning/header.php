@@ -23,9 +23,7 @@
     <div class="site-main container">
       <div class="site-header">
         <div class="site-branding">
-          <div class="site-navigation">  
-
-          </div>
+          
         </div>
       </div>
 
