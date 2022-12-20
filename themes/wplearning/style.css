@@ -38,3 +38,16 @@ h1 {
     background-color: rgb(33, 204, 226);
     height: 60px;
 }
+
+
+/*-------------------------
+01: Home Content
+----------------------------  */
+
+.home-main {
+    margin-top: 50px;
+}
+
+.home-posts {
+    background: white;
+}
