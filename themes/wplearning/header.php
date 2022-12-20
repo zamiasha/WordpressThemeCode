@@ -20,21 +20,16 @@
     </head>
     <body>
 
+    <div class="site-main container">
+      <div class="site-header">
+        <div class="site-branding">
+          <div class="site-navigation">
+            
+          </div>
+        </div>
+      </div>
 
-  
-  
-  <html> <!--
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-  <script>
-
-
-// jQuery(document).ready(function($) {
-  // $("h1").fadeOut();
- //})
-
-</script> -->
-  </html>
-
+   
 
 
 
