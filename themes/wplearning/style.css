@@ -18,10 +18,23 @@ h1 {
 
 
 /*-------------------------
-01 header 
+01:  Header 
 ----------------------------  */
 
 .site-header {
     height: 150px;
-    background-color: aquamarine;
+    background-color: #f0f0f0;
+}
+
+
+/*-------------------------
+01: Main menu
+----------------------------  */
+
+.site-navigation {
+    width: 100%;
+    display: block;
+    clear: both;
+    background-color: rgb(33, 204, 226);
+    height: 50px;
 }
