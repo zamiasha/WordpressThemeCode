@@ -17,13 +17,13 @@
         
     </title>
    <?php wp_head()  ?>
-    </head>
+    </head> 
     <body>
 
     <div class="site-main container">
       <div class="site-header">
         <div class="site-branding">
-             <a href="<?php   bloginfo('url') ?>">
+            
               <?php the_custom_logo() ?>
              </a>
           </div> 
