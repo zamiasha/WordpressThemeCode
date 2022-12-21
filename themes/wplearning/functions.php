@@ -7,8 +7,7 @@
 
  add_theme_support('custom-logo');
  register_nav_menus( array(
-    'primary'   => __( 'Primary Menu', 'myfirsttheme' ),
-    'secondary' => __( 'Secondary Menu', 'myfirsttheme' )
+    'primary'   => __( 'Primary Menu', 'wplearning' ),
 ) );
 
 function wplearning_theme_scripts() {
