@@ -49,6 +49,37 @@
 		            'before_title'  => '<h3 class="widget-title">',
 		            'after_title'   => '</h3>',
 	         ) );
+             
+             
+             function wplearning_widgets_init() {
+                register_sidebar( array(
+                'name'          => __( 'Footer widget 1', 'theme_name' ),
+                'id'            => 'footer-1',
+                'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+                'after_widget'  => '</aside>',
+                'before_title'  => '<h3 class="widget-title">',
+                'after_title'   => '</h3>',
+            ) );
+
+                function wplearning_widgets_init() {
+                    register_sidebar( array(
+                    'name'          => __( 'Footer widget 2', 'theme_name' ),
+                    'id'            => 'footer-2',
+                    'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+                    'after_widget'  => '</aside>',
+                    'before_title'  => '<h3 class="widget-title">',
+                    'after_title'   => '</h3>',
+            ) );
+            
+                function wplearning_widgets_init() {
+                    register_sidebar( array(
+                    'name'          => __( 'Footer widget 3', 'theme_name' ),
+                    'id'            => 'footer-3',
+                    'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+                    'after_widget'  => '</aside>',
+                    'before_title'  => '<h3 class="widget-title">',
+                    'after_title'   => '</h3>',
+            ) );
         	       
             }
            add_Action( 'widgets_init', 'wplearning_widgets_init' );
