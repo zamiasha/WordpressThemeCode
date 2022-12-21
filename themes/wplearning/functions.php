@@ -36,4 +36,22 @@
             add_action('wp_enqueue_scripts', 'wplearning_theme_scripts', 10);
 
 
+            //register  side  bar code 
+            
+            
+                    function wplearning_widgets_init() {
+	                register_sidebar( array(
+		            'name'          => __( 'Primary Sidebar', 'theme_name' ),
+		            'id'            => 'main-sidebar',
+                    'description'   =>  'Main Sidebar on Right Side',
+		            'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		            'after_widget'  => '</aside>',
+		            'before_title'  => '<h3 class="widget-title">',
+		            'after_title'   => '</h3>',
+	         ) );
+        	       
+            }
+           add_Action( 'widgets_init', 'wplearning_widgets_init' );
+
+
 ?>
