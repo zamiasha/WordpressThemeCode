@@ -48,40 +48,47 @@
 		            'after_widget'  => '</aside>',
 		            'before_title'  => '<h3 class="widget-title">',
 		            'after_title'   => '</h3>',
-	         ) );
-             
-             
-             function wplearning_widgets_init() {
+	         ) );  
+            
+
+
+            //register footer  widegt  code  with backend  and  display on site apperance
+     
                 register_sidebar( array(
-                'name'          => __( 'Footer widget 1', 'theme_name' ),
+                'name'          => __( 'Footer Widgets 1', 'theme_name' ),
                 'id'            => 'footer-1',
+                'description'   =>  'Main Sidebar on Right Side',
                 'before_widget' => '<aside id="%1$s" class="widget %2$s">',
                 'after_widget'  => '</aside>',
                 'before_title'  => '<h3 class="widget-title">',
                 'after_title'   => '</h3>',
-            ) );
+            ) );  
 
-                function wplearning_widgets_init() {
-                    register_sidebar( array(
-                    'name'          => __( 'Footer widget 2', 'theme_name' ),
+                //footer 2nd widgets
+                register_sidebar( array(
+                    'name'          => __( 'Footer Widgets 2', 'theme_name' ),
                     'id'            => 'footer-2',
+                    'description'   =>  'Main Sidebar on Right Side',
                     'before_widget' => '<aside id="%1$s" class="widget %2$s">',
                     'after_widget'  => '</aside>',
                     'before_title'  => '<h3 class="widget-title">',
                     'after_title'   => '</h3>',
-            ) );
-            
-                function wplearning_widgets_init() {
-                    register_sidebar( array(
-                    'name'          => __( 'Footer widget 3', 'theme_name' ),
+            ) );  
+
+
+            //footer 3rd widgets  code  
+                register_sidebar( array(
+                    'name'          => __( 'Footer Widgets 3', 'theme_name' ),
                     'id'            => 'footer-3',
+                    'description'   =>  'Main Sidebar on Right Side',
                     'before_widget' => '<aside id="%1$s" class="widget %2$s">',
                     'after_widget'  => '</aside>',
                     'before_title'  => '<h3 class="widget-title">',
                     'after_title'   => '</h3>',
-            ) );
-        	       
-            }
+            ) );  
+        }
+
+            
            add_Action( 'widgets_init', 'wplearning_widgets_init' );
 
 
