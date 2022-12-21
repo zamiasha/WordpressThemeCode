@@ -35,8 +35,41 @@ h1 {
     width: 100%;
     display: block;
     clear: both;
-    background-color: rgb(33, 204, 226);
+    background-color: #01411C;
     height: 60px;
+}
+
+.site-navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    width: 100%;
+    clear: both;
+    text-align: center;
+}
+
+.site-navigation ul li {
+    display: inline-block;
+    height: 60px;
+    margin-left: -4px;
+}
+
+.site-navigation ul li a {
+    display: inline-block;
+    height: 100%;
+    padding: 0px 40px;
+    line-height: 60px;
+    color: white;
+    border-right: 1px solid white;
+}
+
+.site-navigation ul li a:hover {
+    text-decoration: none;
+    background-color: black;
+}
+
+.site-navigation ul li:first-child a {
+    border-left: 1px solid black;
 }
 
 
