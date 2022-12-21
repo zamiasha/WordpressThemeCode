@@ -57,7 +57,6 @@
                 register_sidebar( array(
                 'name'          => __( 'Footer Widgets 1', 'theme_name' ),
                 'id'            => 'footer-1',
-                'description'   =>  'Main Sidebar on Right Side',
                 'before_widget' => '<aside id="%1$s" class="widget %2$s">',
                 'after_widget'  => '</aside>',
                 'before_title'  => '<h3 class="widget-title">',
@@ -68,7 +67,6 @@
                 register_sidebar( array(
                     'name'          => __( 'Footer Widgets 2', 'theme_name' ),
                     'id'            => 'footer-2',
-                    'description'   =>  'Main Sidebar on Right Side',
                     'before_widget' => '<aside id="%1$s" class="widget %2$s">',
                     'after_widget'  => '</aside>',
                     'before_title'  => '<h3 class="widget-title">',
@@ -80,7 +78,6 @@
                 register_sidebar( array(
                     'name'          => __( 'Footer Widgets 3', 'theme_name' ),
                     'id'            => 'footer-3',
-                    'description'   =>  'Main Sidebar on Right Side',
                     'before_widget' => '<aside id="%1$s" class="widget %2$s">',
                     'after_widget'  => '</aside>',
                     'before_title'  => '<h3 class="widget-title">',
