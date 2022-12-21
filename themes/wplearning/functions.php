@@ -4,7 +4,10 @@
  */
 
 
+        function wplearning_theme_setup(
 
+        )
+        add_action('after_setup_theme', 'wplearning_theme_setup')
 
 
 
