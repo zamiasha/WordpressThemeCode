@@ -4,7 +4,11 @@
  */
 ?>
 
+
+
+
 <footer class="site-footer">
+       <!--zahib widgets code  run-->
        <div class="row ml-0  mr-0 footer-widgets">   
               
               <?php dynamic_sidebar('footerr'); ?>         
