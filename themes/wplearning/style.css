@@ -3,6 +3,7 @@ Theme Name: WP Learning
 Description: This is our first theme
 Author: Zamia shah
 Author URI: Https://academy.pk 
+Text Domain: wplearning
 
 */
 
@@ -95,7 +96,8 @@ h1 {
     background: #ddd;
 }
 
-.widget {
+
+/* .widget {
     padding: 10px;
     margin-bottom: 10px;
 }
@@ -112,8 +114,8 @@ h1 {
 .widget ol {
     margin: 0 0 0 15px;
     padding: 0;
-    list-style-type: none;
-}
+    list-style-type: none;  
+} */
 
 
 /*****************************
