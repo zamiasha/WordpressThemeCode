@@ -6,13 +6,35 @@
 
 
 
-
-<footer class="site-footer">
-       <!--zahib widgets code  run-->
-       <div class="row ml-0  mr-0 footer-widgets">   
+    <!--zahib widgets code  run-->
+  
+<!-- <footer class="site-footer">
+        <div class="row ml-0  mr-0 footer-widgets">   
               
-              <?php dynamic_sidebar('footerr'); ?>         
-</footer>
+              
+</footer> -->
+
+
+              <footer class="site-footer">
+                     <div class="row ml-0 mr-0  footer-widgets">
+                            <div class="widgets-col  col-lg-4 col-md-4  col-sm-4 col-xs-12">
+                                   <?php dynamic_sidebar('footer_widget-1'); ?>
+                            </div>
+                            <div class="widgets-col  col-lg-4 col-md-4  col-sm-4 col-xs-12">
+                                   <?php dynamic_sidebar('footer_widget-2'); ?>
+                            </div>
+                            <div class="widgets-col  col-lg-4 col-md-4  col-sm-4 col-xs-12">
+                                   <?php dynamic_sidebar('footer_widget-3'); ?>
+                            </div>
+                     </div>
+
+              </footer>
+              
+
+
+
+
+
  </div> <!--closing of main contiainer --> 
 
        </body> 

@@ -40,7 +40,7 @@
             
             
                     function wplearning_widgets_init() {
-	                register_sidebar( array(
+	                register_sidebar( array( 
 		            'name'          => __( 'Primary Sidebar', 'theme_name' ),
 		            'id'            => 'main-sidebar',
                     'description'   =>  'Main Sidebar on Right Side',
@@ -51,6 +51,67 @@
 	         ) );   
             }
             add_action( 'widgets_init', 'wplearning_widgets_init',10 );
+
+
+
+
+
+
+                   //zahib footer  widget display code 
+                function wplearning_widgets_footer_init () {
+                    register_sidebar( array (
+                        'name'=>esc_html__( 'footer_widget-1', 'wplearning' ),
+                        'id'=> 'footerr-1',
+                        'before_widget'=>'<section class="new-sec">',
+                        'after_widget'=> '</section',
+                        'before_title'=> '<h3 class="f-h">',
+                        'after_title'=>'</h3>'
+                    )); 
+                }
+                add_action( 'widgets_init', 'wplearning_widgets_footer_init', 10 );
+
+                    //2nd  widgets
+                    function wplearning_widgets_footer_init_2() {
+                    register_sidebar( array (
+                        'name'=>esc_html__( 'footer_widget-2', 'wplearning' ),
+                        'id'=> 'footerr-2',
+                        'before_widget'=>'<section class="new-sec">',
+                        'after_widget'=> '</section',
+                        'before_title'=> '<h3 class="f-h">',
+                        'after_title'=>'</h3>'
+                    ));
+                }
+                add_action( 'widgets_init', 'wplearning_widgets_footer_init_2', 10 );
+
+                        //3rd widgets 
+                        function wplearning_widgets_footer_init_3 () {                   
+                     register_sidebar( array (
+                        'name'=>esc_html__( 'footer_widget-3', 'wplearning' ),
+                        'id'=> 'footerr-3',
+                        'before_widget'=>'<section class="new-sec">',
+                        'after_widget'=> '</section',
+                        'before_title'=> '<h3 class="f-h">',
+                        'after_title'=>'</h3>'
+                     )); 
+                     }
+                
+
+                add_action( 'widgets_init', 'wplearning_widgets_footer_init_3', 10 );
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+            // my  footer  old  code     to display widgets 
 
 
             //register footer  widegt  code  with backend  and  display on site apperance
@@ -87,19 +148,5 @@
 
 
 
-        //zahib footer  widget display code 
-        // function footer_ww () {
-        //     register_sidebar( array (
-        //         'name'=>esc_html__( 'footer_widget', 'wplearning' ),
-        //         'id'=> 'footerr',
-        //         'before_widget'=>'<section class="new-sec">',
-        //         'after_widget'=> '</section',
-        //         'before_title'=> '<h3 class="f-h">',
-        //         'after_title'=>'</h3>'
-        //     ));
-        // }
-
-        // add_action( 'widgets_init', 'footer_ww',10 );
-        
-
+  
 ?>
