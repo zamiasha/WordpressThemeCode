@@ -5,17 +5,9 @@
 ?>
 
 <footer class="site-footer">
-       <div class="footer-widgets">
-              <div  class="widgets-col col-lg-4  col-md-4 col-sm-4 col-xs-12">
-
-              </div>
-              <div class="widgets-col col-lg-4  col-md-4 col-sm-4 col-xs-12">
-
-              </div>
-              <div class="widgets-col col-lg-4  col-md-4 col-sm-4 col-xs-12">  
-                     
-              </div>
-       </div>
+       <div class="row ml-0  mr-0 footer-widgets">   
+              
+              <?php dynamic_sidebar('footerr'); ?>         
 </footer>
  </div> <!--closing of main contiainer --> 
 

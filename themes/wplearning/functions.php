@@ -36,7 +36,7 @@
             add_action('wp_enqueue_scripts', 'wplearning_theme_scripts', 10);
 
 
-            //register  side  bar code 
+            // register  side  bar code 
             
             
                     function wplearning_widgets_init() {
@@ -48,45 +48,58 @@
 		            'after_widget'  => '</aside>',
 		            'before_title'  => '<h3 class="widget-title">',
 		            'after_title'   => '</h3>',
-	         ) );  
-            
+	         ) );   
+            }
+            add_action( 'widgets_init', 'wplearning_widgets_init',10 );
 
 
             //register footer  widegt  code  with backend  and  display on site apperance
      
-                register_sidebar( array(
-                'name'          => __( 'Footer Widgets 1', 'theme_name' ),
-                'id'            => 'footer-1',
-                'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-                'after_widget'  => '</aside>',
-                'before_title'  => '<h3 class="widget-title">',
-                'after_title'   => '</h3>',
-            ) );  
+          
 
-                //footer 2nd widgets
-                register_sidebar( array(
-                    'name'          => __( 'Footer Widgets 2', 'theme_name' ),
-                    'id'            => 'footer-2',
-                    'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-                    'after_widget'  => '</aside>',
-                    'before_title'  => '<h3 class="widget-title">',
-                    'after_title'   => '</h3>',
-            ) );  
+            //     //footer 2nd widgets
+            //     register_sidebar( array(
+            //         'name'          => __( 'Footer Widgets 2', 'theme_name' ),
+            //         'id'            => 'footer-2',
+            //         'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            //         'after_widget'  => '</aside>',
+            //         'before_title'  => '<h3 class="widget-title">',
+            //         'after_title'   => '</h3>',
+            // ) );  
 
 
-            //footer 3rd widgets  code  
-                register_sidebar( array(
-                    'name'          => __( 'Footer Widgets 3', 'theme_name' ),
-                    'id'            => 'footer-3',
-                    'before_widget' => '<aside id="%1$s" class="widget %2$s">',
-                    'after_widget'  => '</aside>',
-                    'before_title'  => '<h3 class="widget-title">',
-                    'after_title'   => '</h3>',
-            ) );  
-        }
+            // //footer 3rd widgets  code  
+            //     register_sidebar( array(
+            //         'name'          => __( 'Footer Widgets 3', 'theme_name' ),
+            //         'id'            => 'footer-3',
+            //         'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+            //         'after_widget'  => '</aside>',
+            //         'before_title'  => '<h3 class="widget-title">',
+            //         'after_title'   => '</h3>',
+            // ) );  
+        
 
             
-           add_Action( 'widgets_init', 'wplearning_widgets_init' );
+        //    add_Action( 'widgets_init', 'wplearning_widgets_init' );
 
+   
+
+
+
+
+        //zahib footer  widget display code 
+        // function footer_ww () {
+        //     register_sidebar( array (
+        //         'name'=>esc_html__( 'footer_widget', 'wplearning' ),
+        //         'id'=> 'footerr',
+        //         'before_widget'=>'<section class="new-sec">',
+        //         'after_widget'=> '</section',
+        //         'before_title'=> '<h3 class="f-h">',
+        //         'after_title'=>'</h3>'
+        //     ));
+        // }
+
+        // add_action( 'widgets_init', 'footer_ww',10 );
+        
 
 ?>
