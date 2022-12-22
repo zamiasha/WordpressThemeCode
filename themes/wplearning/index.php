@@ -16,7 +16,7 @@ get_header();
                <article class="home-post">
                   <div class="post-header">
                     <div class="post-thumbnail  row  ml-0 mr-0">
-                        <?php the_post_thumbnail('full') ?>
+                        <?php the_post_thumbnail('home-featured') ?>
                     </div>
                   </div>
                   <div class="post-description"></div>

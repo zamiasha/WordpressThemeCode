@@ -13,7 +13,7 @@
 
             add_theme_support('post-thumbnails');
 
-            add_image_size('home-featured', 640, 400,  array('center', 'center' ));
+            add_image_size('home-featured', 680, 400,  array('center', 'center' )); 
 
             add_theme_support('automatic-feed-links');
 
