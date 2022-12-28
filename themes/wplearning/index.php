@@ -16,9 +16,9 @@ get_header();
                <article class="home-post">
                   <div class="post-header">
                     <div class="post-thumbnail  row  ml-0 mr-0">
-                        <?php the_post_thumbnail('home-featured') ?>
+                    <a href=" <?php the_permalink() ?> "><?php the_post_thumbnail('home-featured') ?></a> 
                     </div>
-                    <h1> <?php the_title() ?> </h1>
+                    <h1><a href=" <?php the_permalink() ?> "> <?php the_title() ?> </a> </h1>
                   </div>
                   <div class="post-description">
                   <?php the_excerpt() ?>
