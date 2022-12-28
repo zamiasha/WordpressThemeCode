@@ -18,11 +18,10 @@ get_header();
                     <div class="post-thumbnail  row  ml-0 mr-0">
                         <?php the_post_thumbnail('home-featured') ?>
                     </div>
-                    
                     <h1> <?php the_title() ?> </h1>
                   </div>
                   <div class="post-description">
-                    
+                  <?php the_excerpt() ?>
                   </div>
                   <div class="post-footer"></div>
                </article>
