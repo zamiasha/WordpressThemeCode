@@ -13,7 +13,9 @@
 
             add_theme_support('post-thumbnails');
 
+            //add img  size  issue
             add_image_size('home-featured', 680, 400,  array('center', 'center' )); 
+
 
             add_theme_support('automatic-feed-links');
 
