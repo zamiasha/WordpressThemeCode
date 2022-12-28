@@ -23,7 +23,14 @@ get_header();
                   <div class="post-description">
                   <?php the_excerpt() ?>
                   </div>
-                  <div class="post-footer"></div>
+                  <div class="post-footer row ml-0 mr-0 mr-10">
+                    <div class="post-meta">
+                        <strong> Author: <?php the_author() ?> </strong>
+                    </div>
+                    <div class="post-meta">
+                        <strong> Posdted on : <?php the_time() ?> </strong>
+                    </div>
+                  </div>
                </article>
                    
             <?php  endwhile; ?>

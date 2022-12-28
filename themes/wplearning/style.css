@@ -103,6 +103,11 @@ h1 {
     padding: 10px;
 }
 
+.post-meta {
+    float: left;
+    margin-right: 10px;
+}
+
 
 /* 
 .home-post img {
