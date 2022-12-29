@@ -35,6 +35,10 @@ get_header();
                    
             <?php  endwhile; ?>
         <?php  endif;  ?>
+                <div class="pagination">
+                    <!-- row ml-0 mr-0" added  this  row  into pagination class  for  show  pagination in page layout  -->
+                    <?php  echo paginate_links() ?>
+                    </div>
         </div>
         
         <div class="home-sidebar col-4">
@@ -50,9 +54,5 @@ get_header();
    
     get_footer();
 ?>
-
-
-
-
 
 
