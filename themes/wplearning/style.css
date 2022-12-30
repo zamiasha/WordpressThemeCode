@@ -73,6 +73,11 @@ h1 {
     border-left: 1px solid black;
 }
 
+.custom-header .img-fluid {
+    margin-bottom: 15px;
+    height: 400px;
+}
+
 
 /******************************
 03: Home Content

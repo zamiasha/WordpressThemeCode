@@ -35,6 +35,8 @@
             };
         add_action('after_setup_theme', 'wplearning_theme_setup');
 
+        
+
 
 
            

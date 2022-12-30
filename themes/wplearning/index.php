@@ -8,6 +8,9 @@ get_header();
 
 
         <div class="home-main">
+            <div class="custom-header">
+               <img src="<?php header_image(); ?>" width="<?php echo absint(get_custom_header()->width) ?>"   width="<?php echo absint(get_custom_header()->height) ?>" class="img-fluid" >  
+            </div>
         <div class="row">
         <div class="home-posts col-8 ">
             <?php  if ( have_posts() ) : ?>
