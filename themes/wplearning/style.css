@@ -133,6 +133,23 @@ h1 {
     background: #fff;
 }
 
+.post-container {
+    margin: 15px;
+}
+
+.post-image {
+    text-align: center;
+}
+
+.post-image,
+.post-title,
+.post-meta-row,
+.post-content {
+    width: 100%;
+    clear: both;
+    margin-bottom: 10px;
+}
+
 
 /* 
 .home-post img {

@@ -8,7 +8,7 @@
 get_header();
 ?>
       
-       <div class="post-content">
+       <div class="post-container">
         
       <?php  if ( have_posts() ) : ?>
            <?php  while ( have_posts() ) : the_post(); ?>   
@@ -18,7 +18,7 @@ get_header();
             <div class="post-title">
                 <h1> <?php the_title() ?></h1>
             </div>
-                <div class="post-meta">
+                <div class="post-meta-row">
                     <div class="post-meta">
                         <strong> Author: <?php the_author() ?> </strong>
                     </div>
